@@ -21,6 +21,26 @@ module.exports = {
 };
 ```
 
+## Simple Configuration
+
+If you just want to get started quickly without too much configuration, you can use the following simple setup in your Jest configuration file:
+
+```javascript
+module.exports = {
+  // ... other Jest configuration options
+  reporters: [
+    "default",
+    ["jest-angular-test-verifier", {
+      failOnMissingTests: true
+    }]
+  ]
+};
+```
+
+With this simple configuration, the reporter will start checking for test files in the default directory `'src/app'` and it will display an error and fail the tests if any of the specified file types (components, services, guards, directives, and pipes) are missing their corresponding test files.
+
+Feel free to customize the configuration further by adding more options as needed, but this simple setup should get you started quickly.
+
 ## Configuration Options
 
 You can configure the reporter by providing a second argument with options in your configuration file:
