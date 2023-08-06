@@ -1,6 +1,6 @@
 {
   "name": "jest-angular-test-verifier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom Jest reporter specifically designed for Angular projects. This reporter checks and ensures that specific types of files (components, services, directives, etc.) have their corresponding test file.",
   "main": "index.js",
   "keywords": [
