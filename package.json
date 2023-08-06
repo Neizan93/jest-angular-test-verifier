@@ -11,11 +11,20 @@
   ],
   "author": "Jonatan Martín Garcia",
   "license": "MIT",
-  "peerDependencies": {
-    "jest": "^29.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Neizan93/jest-angular-test-verifier.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "minimatch": "^9.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
